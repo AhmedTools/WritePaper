@@ -34,10 +34,10 @@ copyright1 = (' '*13+f"{red}'{green}GitHub{red}'{yellow}:{red}'{green}AhmedTools
 print(copyright1)
 token = input('- Enter Token Bot : ')
 try:
-	bot = telebot.TeleBot(token))
+	bot = telebot.TeleBot(token)
 except:
 	time.sleep(1)
-	bot = telebot.TeleBot(token))
+	bot = telebot.TeleBot(token)
 os.system(clear)
 print(copyright1)
 last_message = ""
