@@ -32,7 +32,12 @@ restart = '\x1b[0m'
 copyright1 = (' '*13+f"{red}'{green}GitHub{red}'{yellow}:{red}'{green}AhmedTools{red}'{yellow},{red}'{green}TeleGram{red}'{yellow}:{red}'{green}U_L_W{red}'\n{restart}")
 #codeind
 print(copyright1)
-bot = telebot.TeleBot((input("- Enter Token : ")))
+token = input('- Enter Token Bot : ')
+try:
+	bot = telebot.TeleBot(token))
+except:
+	time.sleep(1)
+	bot = telebot.TeleBot(token))
 os.system(clear)
 print(copyright1)
 last_message = ""
