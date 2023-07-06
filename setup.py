@@ -64,7 +64,6 @@ def working(message):
         if any(c.isalnum() and not ('\u0621' <= c <= '\u064A') for c in text):
             bot.send_chat_action(message.chat.id, 'find_location')
             image = requests.get(f"http://apis.xditya.me/write", {'text': text}).content
-
             time.sleep(0.70)
             bot.send_chat_action(message.chat.id, 'upload_photo')
             markup_text = telebot.types.InlineKeyboardMarkup()
