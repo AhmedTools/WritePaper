@@ -70,7 +70,7 @@ def working(message):
             button_markup = telebot.types.InlineKeyboardButton(text=f'- {text}', callback_data='text')
             markup_text.add(button_markup)
             bot.send_photo(message.chat.id, photo=image, reply_markup=markup_text)
-            print(f"Name : {message.from_user.first_name} | Id : {message.chat.id} | Text : {text}")
+            print(f"Name : {message.from_user.first_name} | UserName : @{message.chat.username} | Text : {text}")
         elif any(char in symbols or char in numbers for char in text):
             bot.send_chat_action(message.chat.id, 'find_location')
             image = requests.get(f"http://apis.xditya.me/write", {'text': text}).content
@@ -80,7 +80,7 @@ def working(message):
             button_markup = telebot.types.InlineKeyboardButton(text=f'- {text}', callback_data='text')
             markup_text.add(button_markup)
             bot.send_photo(message.chat.id, photo=image, reply_markup=markup_text)
-            print(f"Name : {message.from_user.first_name} | Id : {message.chat.id} | Text : {text}")
+            print(f"Name : {message.from_user.first_name} | UserName : @{message.chat.username} | Text : {text}")
         else:
             bot.send_message(message.chat.id, "- Sorry The Bot Not Support This Language\n\n- عذراً هذا البوت لا يدعم هذه اللغة", reply_markup=markup)
     last_message = text
