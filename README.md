@@ -12,9 +12,6 @@ Welcome to the Telegram Handwriting Bot ! 📝 This bot allows you to send messa
 ## 📸 Examples
 
 ![Example 1](example1.jpg)
-*Handwritten message: "Hello there!"*
-
-![Example 2](example2.jpg)
 *Handwritten message: "How are you today?"*
 
 ## 📢 Feedback
