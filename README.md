@@ -20,8 +20,7 @@ We're always looking to improve! If you have any feedback or suggestions, feel f
 
 ## 🌟 Contributors
 
-- Telegram: [@u_l_w](https://t.me/u_l_w)
-- Email: [iam982922@gmail.com](mailto:iam982922@gmail.com)
+- Telegram: [@YYYaYY](https://t.me/YYYaYY)
 - Telegram Channel: [AhmedTools](https://t.me/ahmedtools)
 - GitHub: [ahmedtools](https://github.com/ahmedtools)
 
